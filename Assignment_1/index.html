@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mattel® See N Say Storymaker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Mattel® ‘See ‘N’ Say Storymaker’</h1>
+    <br />
+    <table class="first_page">
+      <tr>
+        <td id = "first_column">
+          <div class="number">1</div>
+          <br />
+          <img src="images/Turkey-cartoon.png" alt="cartoon turkey" />
+          <p>The turkey</p>
+          <br />
+          <img src="images/mom.png" alt="cartoon mom"/>
+          <p>My mom</p>
+          <br />
+          <img src="images/dad.png" alt="cartoon dad"/>
+          <p>My dad</p>
+          <br />
+          <img src="images/cartoon-dog.png" alt="cartoon dog"/>
+          <p>The dog</p>
+        </td>
+        <td id = "second_column">
+          <div class="number">2</div>
+          <br />
+          <img src="images/Kid-sitting-down.png" alt="kid sitting down"/>
+          <p>Sat on</p>
+          <br />
+          <img src="images/eating.png" alt="kid eating"/>
+          <p>ate</p>
+          <br />
+          <img src="images/dancing.png" alt="dancing couple"/>
+          <p>danced with</p>
+          <br />
+          <img src="images/dislike.png" alt="dislike"/>
+          <p>doesn't like</p>
+          <br />
+          <img src="images/kissing.png" alt="fish kissing"/>
+          <p>kissed with</p>
+        </td>
+        <td id = "third_column">
+          <div class="number">3</div>
+          <br />
+          <img src="images/funny-clown.png" alt="funny clown"/>
+          <p>A funny</p>
+          <br />
+          <img src="images/spooky-ghost.png" alt="spooky ghost"/>
+          <p>A spooky</p>
+          <br />
+          <img src="images/goofy.png" alt="goofy dog"/>
+          <p>A goofy</p>
+          <br />
+          <img src="images/bark.png" alt="barking dog"/>
+          <p>A barking</p>
+          <br />
+          <img src="images/fat.png" alt="fat guy"/>
+          <p>A fat</p>
+        </td">
+        <td id = "fourth_column">
+          <div class="number">4</div>
+          <br />
+          <img src="images/goat.png" alt="cartoon goat"/>
+          <p>Goat</p>
+          <br />
+          <img src="images/monkey.png" alt="cartoon monkey"/>
+          <p>Monkey</p>
+          <br />
+          <img src="images/CartoonFish.png" alt="cartoon fish"/>
+          <p>Fish</p>
+          <br />
+          <img src="images/frog.png" alt="cartoon frog"/>
+          <p>Frog</p>
+          <br />
+          <img src="images/giraffe-cartoon.png" alt="cartoon giraffe"/>
+          <p>Giraffe</p>
+        </td>
+        <td id = "fifth_column"> 
+          <div class="number">5</div>
+          <br />
+          <img src="images/cartoon-moon.png" alt="happy moon" />
+          <p>On the moon</p>
+          <br />
+          <img src="images/chair.png" alt="chair" />
+          <p>On the chair</p>
+          <br />
+          <img src="images/spaghetti.png" alt="spaghetti" />
+          <p>in my spaghetti</p>
+          <br />
+          <img src="images/grass.png" alt="grass" />
+          <p>On the grass</p>
+          <br />
+          <img src="images/shoes.png" alt="shoes" />
+          <p>On my shoes</p>
+      </tr>
+      <tr>
+        <td><button class="button" id="purple-button" onclick="sayThing(1)"></button></td>
+        <td><button class="button" id="blue-button" onclick="sayThing(2)"></button></td>
+        <td><button class="button" id="green-button" onclick="sayThing(3)"></button></td>
+        <td><button class="button" id="orange-button" onclick="sayThing(4)"></button></td>
+        <td><button class="button" id="pink-button" onclick="sayThing(5)"></button></td>
+      </tr>
+    </table>
+    <!-- to see the message being created-->
+    <p id="noun" class="message">-</p>
+    <p id="verb" class="message">-</p>
+    <p id="adjective" class="message">-</p>
+    <p id="object" class="message">-</p>
+    <p id="place" class="message">-</p>
+
+    <table class="first_page" id="second-table">
+      <tr>
+        <td>
+          <label for="red-button"><h2>Surprise</h2></label>
+          <button class="button" id="red-button" onclick="sayThing(6)"></button>
+        </td>
+        <td>
+          <label for="brown-button"><h2>repeat</h2></label>
+          <button class="button" id="brown-button" onclick="sayThing(7)"></button>
+        </td>
+     </tr>
+    </table>
+  </body>
+</html>
